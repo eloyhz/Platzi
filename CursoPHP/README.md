@@ -1,4 +1,4 @@
-# Notas del Curso de PHP de Platzi
+# Notas del Curso de Introducción a PHP de Platzi
 
 ## Profesor
 Héctor Benitez
