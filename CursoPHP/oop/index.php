@@ -17,6 +17,18 @@ class Car
 {
     private $owner = 'Alex';
 
+    // inicializar valores de la instancia
+    public function __construct($owner)
+    {
+        $this->owner = $owner;
+        echo 'constructor<br>';
+    }
+
+    public function __destruct()
+    {
+        echo 'destructor<br>';
+    }
+
     public function move() {
         echo 'moving<br>';
     }
@@ -34,13 +46,11 @@ class Car
 
 echo 'Class Car <br>';
 
-$car = new Car();
-$car2 = new Car();
+$car = new Car('Alex');
+$car2 = new Car('Mike');
 
 // llamar el método move
 $car->move();
-$car->setOwner('Mike');
-$car2->setOwner('Max');
 
 // Cada instancia tiene un valor independiente
 echo 'Owner car: ' . $car->getOwner() . '<br>';
