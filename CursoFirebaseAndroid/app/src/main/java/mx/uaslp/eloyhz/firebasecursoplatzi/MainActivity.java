@@ -11,6 +11,8 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "MainActivity";
+
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener authStateListener;
 
@@ -25,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     public void initialize()    {
         firebaseAuth = FirebaseAuth.getInstance();
         authStateListener = new FirebaseAuth.AuthStateListener() {
-            public static final String TAG = "MainActivity";
 
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
