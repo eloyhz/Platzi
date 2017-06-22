@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "699969287212",
+    "firebase_url": "https://android-examples-7765a.firebaseio.com",
+    "project_id": "android-examples-7765a",
+    "storage_bucket": "android-examples-7765a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699969287212:android:bc45feea32d99eab",
+        "android_client_info": {
+          "package_name": "mx.uaslp.eloyhz.firebasecursoplatzi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699969287212-8k1kjtjtpbj83247j1be84qhb1ueab87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.uaslp.eloyhz.firebasecursoplatzi",
+            "certificate_hash": "d90aba72eb753f1e95651fb9435cb59412b4b43d"
+          }
+        },
+        {
+          "client_id": "699969287212-2ag8m3n13pdljeb1fm0otoha28p8ipj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpXV4Q_cf4GazUidYn2ZtIbGLiH6cki18"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699969287212-2ag8m3n13pdljeb1fm0otoha28p8ipj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
