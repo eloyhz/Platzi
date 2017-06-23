@@ -13,20 +13,15 @@
 // sin que el objeto se entere. Es más conveniente hacer la comunicación
 // con un objeto únicamente a través de su interfaz.
 
-class Car
+class Vehicle
 {
-    private $owner = 'Alex';
+    private $owner = null;
 
     // inicializar valores de la instancia
     public function __construct($owner)
     {
         $this->owner = $owner;
         echo 'constructor<br>';
-    }
-
-    public function __destruct()
-    {
-        echo 'destructor<br>';
     }
 
     public function move() {
@@ -44,14 +39,33 @@ class Car
     }
 }
 
+class Car extends Vehicle {
+    public function move() {
+        echo 'Car: moving<br>';
+    }
+}
+
+class Truck extends Vehicle {
+    private $type;
+
+    public function __construct($owner, $type)
+    {
+        $this->type = $type;
+        //parent::__construct($owner);
+        $this->owner = $owner;
+    }
+
+    public function move() {
+        echo 'Truck ' . $this->type . ': moving<br>';
+    }
+}
+
 echo 'Class Car <br>';
-
 $car = new Car('Alex');
-$car2 = new Car('Mike');
-
-// llamar el método move
 $car->move();
+echo 'Owner car: ' . $car->getOwner() . '<br><br>';
 
-// Cada instancia tiene un valor independiente
-echo 'Owner car: ' . $car->getOwner() . '<br>';
-echo 'Owner car2: ' . $car2->getOwner() . '<br>';
+echo 'Class truck<br>';
+$truck = new Truck('Mike', 'Pickup');
+$truck->move();
+echo 'Owner truck: ' . $truck->getOwner() . '<br>';
