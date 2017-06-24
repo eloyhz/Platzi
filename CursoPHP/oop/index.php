@@ -13,52 +13,16 @@
 // sin que el objeto se entere. Es más conveniente hacer la comunicación
 // con un objeto únicamente a través de su interfaz.
 
-class Vehicle
-{
-    private $owner = null;
 
-    // inicializar valores de la instancia
-    public function __construct($owner)
-    {
-        $this->owner = $owner;
-        echo 'constructor<br>';
-    }
+include 'vehicles/Car.php';
+include 'vehicles/Truck.php';
 
-    public function move() {
-        echo 'moving<br>';
-    }
 
-    public function getOwner() {
-        return $this->owner;
-    }
+use Vehicles\Car;
+use Vehicles\Truck;
 
-    // Ayuda a crear validaciones, por ejemplo evitar
-    // un propietario con una cadena vacía
-    public function setOwner($owner) {
-        $this->owner = $owner;
-    }
-}
-
-class Car extends Vehicle {
-    public function move() {
-        echo 'Car: moving<br>';
-    }
-}
-
-class Truck extends Vehicle {
-    private $type;
-
-    public function __construct($owner, $type)
-    {
-        $this->type = $type;
-        //parent::__construct($owner);
-        $this->owner = $owner;
-    }
-
-    public function move() {
-        echo 'Truck ' . $this->type . ': moving<br>';
-    }
-}
+// Se pueden agrupar las declaraciones en PHP 7
+// use Vehicles\{Car, Truck};
 
 echo 'Class Car <br>';
 $car = new Car('Alex');
