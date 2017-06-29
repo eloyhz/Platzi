@@ -1,0 +1,4 @@
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/Droid/obj/Debug/ToDoForms.Droid.csprojResolveAssemblyReference.cache
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/Droid/obj/Debug/ToDoForms.Droid.csproj.CoreCompileInputs.cache
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/Droid/obj/Debug/ToDoForms.Droid.dll
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/Droid/obj/Debug/ToDoForms.Droid.pdb

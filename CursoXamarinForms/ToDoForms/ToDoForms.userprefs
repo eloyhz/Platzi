@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{388F36D3-3DD3-46F7-81BA-2BD862B8F039}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Xamarin.Forms.2.3.4.231/build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets">
+    <Files>
+      <File FileName="ToDoForms/ToDoFormsPage.xaml" Line="5" Column="1" />
+      <File FileName="packages/Xamarin.Forms.2.3.4.231/build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets" Line="51" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7E38E28B-3E15-40BA-B281-596FB45B8141" />
+  <MultiItemStartupConfigurations />
+</Properties>
