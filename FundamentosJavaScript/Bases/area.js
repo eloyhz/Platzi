@@ -1,7 +1,7 @@
 let base = 5
 let height = 7
 
-function triangleArea(base, height) {
+let triangleArea = function (base, height) {
   return base * height / 2
 }
 
