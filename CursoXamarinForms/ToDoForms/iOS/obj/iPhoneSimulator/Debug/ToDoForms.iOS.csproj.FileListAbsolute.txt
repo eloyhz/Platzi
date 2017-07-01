@@ -48,11 +48,11 @@
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.0/ibtool/_BundleResourceWithLogicalName.items
-/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.0/actool/_PartialAppManifest.items
-/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.0/actool/_BundleResourceWithLogicalName.items
-/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.0/optimized/
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/ToDoForms.iOS.csprojResolveAssemblyReference.cache
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/ToDoForms.iOS.csproj.CoreCompileInputs.cache
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/ToDoForms.iOS.exe
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/ToDoForms.iOS.pdb
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
