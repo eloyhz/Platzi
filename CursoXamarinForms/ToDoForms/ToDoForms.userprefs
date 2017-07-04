@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{A6A53E30-67E1-45F3-A8E9-739324EBA670}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoForms/Clases/Tarea.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="ToDoForms/ToDoFormsPage.xaml" Line="16" Column="1" />
-      <File FileName="ToDoForms/ToDoFormsPage.xaml.cs" Line="16" Column="59" />
-      <File FileName="ToDoForms/NuevoItem.xaml" Line="28" Column="1" />
-      <File FileName="ToDoForms/NuevoItem.xaml.cs" Line="21" Column="1" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="ToDoForms/App.xaml.cs" Line="11" Column="63" />
-      <File FileName="ToDoForms/Clases/Tarea.cs" Line="9" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="34" Column="2" />
+      <File FileName="iOS/AppDelegate.cs" Line="15" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
