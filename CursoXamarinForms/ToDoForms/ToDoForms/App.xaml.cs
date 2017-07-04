@@ -8,7 +8,8 @@ namespace ToDoForms
         {
             InitializeComponent();
 
-            MainPage = new ToDoFormsPage();
+            MainPage = new NavigationPage(new ToDoFormsPage());
+
         }
 
         protected override void OnStart()

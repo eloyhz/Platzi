@@ -17,3 +17,4 @@
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/ToDoForms/obj/Debug/ToDoForms.ToDoFormsPage.xaml.g.cs
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/ToDoForms/obj/Debug/ToDoForms.dll
 /Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/ToDoForms/obj/Debug/ToDoForms.pdb
+/Users/eloyhz/Platzi/CursoXamarinForms/ToDoForms/ToDoForms/obj/Debug/ToDoForms.NuevoItem.xaml.g.cs

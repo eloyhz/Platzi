@@ -4,7 +4,7 @@ namespace ToDoForms
 {
     public partial class ToDoFormsPage : ContentPage
     {
-        void Handle_Clicked(object sender, System.EventArgs e)
+        async void Handle_Clicked(object sender, System.EventArgs e)
         {
             if (string.IsNullOrEmpty(usuarioEntry.Text) || string.IsNullOrEmpty(passwordEntry.Text))
             {
@@ -13,6 +13,7 @@ namespace ToDoForms
             else
             {
                 resultadoLabel.Text = "Inicio de sesión exitoso";
+                await Navigation.PushAsync(new NuevoItem());
             }
         }
 

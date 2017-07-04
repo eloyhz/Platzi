@@ -1,8 +1,13 @@
-﻿<Properties StartupConfiguration="{388F36D3-3DD3-46F7-81BA-2BD862B8F039}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoForms/ToDoFormsPage.xaml">
+﻿<Properties StartupConfiguration="{A6A53E30-67E1-45F3-A8E9-739324EBA670}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoForms/Clases/Tarea.cs">
     <Files>
-      <File FileName="ToDoForms/ToDoFormsPage.xaml" Line="12" Column="10" />
-      <File FileName="ToDoForms/ToDoFormsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ToDoForms/ToDoFormsPage.xaml" Line="16" Column="1" />
+      <File FileName="ToDoForms/ToDoFormsPage.xaml.cs" Line="16" Column="59" />
+      <File FileName="ToDoForms/NuevoItem.xaml" Line="28" Column="1" />
+      <File FileName="ToDoForms/NuevoItem.xaml.cs" Line="21" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="ToDoForms/App.xaml.cs" Line="11" Column="63" />
+      <File FileName="ToDoForms/Clases/Tarea.cs" Line="9" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,6 +15,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoForms.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MonoDevelop.Ide.ItemProperties.ToDoForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.05BE91BE-EDC8-4E88-B2A4-E565A414DA01" />
   <MultiItemStartupConfigurations />
 </Properties>
