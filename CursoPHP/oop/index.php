@@ -39,4 +39,7 @@ $truck2 = new Truck('Mike', 'Pickup');
 $truck2->move();
 
 // echo '<br>Total Trucks: ' . Truck::$count;
-echo '<br>Total Trucks: ' . Truck::getTotal();
+echo '<br>Total Trucks: ' . Truck::getTotal() . '<br>';
+
+//$v1 = new \Vehicles\VehicleBase('Alex');
+//$v1->move();
