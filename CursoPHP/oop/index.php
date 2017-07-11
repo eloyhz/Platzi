@@ -30,6 +30,13 @@ $car->move();
 echo 'Owner car: ' . $car->getOwner() . '<br><br>';
 
 echo 'Class truck<br>';
-$truck = new Truck('Mike', 'Pickup');
-$truck->move();
-echo 'Owner truck: ' . $truck->getOwner() . '<br>';
+$truck1 = new Truck('Mike', 'Pickup');
+$truck1->move();
+//echo 'Owner truck: ' . $truck->getOwner() . '<br>';
+
+echo 'Class truck<br>';
+$truck2 = new Truck('Mike', 'Pickup');
+$truck2->move();
+
+// echo '<br>Total Trucks: ' . Truck::$count;
+echo '<br>Total Trucks: ' . Truck::getTotal();
