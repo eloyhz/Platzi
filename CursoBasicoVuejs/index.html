@@ -5,11 +5,13 @@
 </head>
 <body>
   <div id="app">
-    <h1 v-if="mostrar">Este es mi título</h1>
-    <h2 v-if="mostrar">Este es mi subtitulo</h2>
-    <a v-if="mostrar" :href="url" target="_blank">
-      Ir a {{pagina}}
-    </a>
+    <div v-if="mostrar">
+      <h1 >Este es mi título</h1>
+      <h2 >Este es mi subtitulo</h2>
+      <a  :href="url" target="_blank">
+        Ir a {{pagina}}
+      </a>
+    </div>
   </div>
   <script src="https://unpkg.com/vue"></script>
   <script>
