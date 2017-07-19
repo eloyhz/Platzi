@@ -5,13 +5,16 @@
 </head>
 <body>
   <div id="app">
-    <template v-if="mostrar">
+    <div v-show="mostrar">
       <h1 >Este es mi título</h1>
       <h2 >Este es mi subtitulo</h2>
       <a  :href="url" target="_blank">
         Ir a {{pagina}}
       </a>
-    </template>
+    </div>
+    <div v-show="!mostrar">
+      Esto está oculto
+    </div>
   </div>
   <script src="https://unpkg.com/vue"></script>
   <script>
