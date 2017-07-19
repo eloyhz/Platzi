@@ -1,54 +1,28 @@
-/*
-
-tipo_de_selector {
-  propiedad: valor;
-  propiedad2: valor;
-}
-*/
-
-/* Selector universal */
-* {
-  border: 1px solid red;
-  margin: 10px;
+.titulo {
+  font-size: 70px;
 }
 
-/* Selector de etiqueta */
-header {
-  background: blue;
+.titulo-a  {
+  font-size: 24px;
 }
 
-section {
-  background: purple;
+.titulo-b  {
+  font-size: 50px;
 }
 
-/* Selector descendente */
-article h3 {
-  color: green;
+.guitarras {
+  color: #1F313C;
 }
 
-/* selectores de clase */
-.title-a {
-  background: yellow;
+.guitarras h2 {
+  font-size: 35px;
 }
 
-.title-b {
-  background: salmon;
+.portada {
+  background-image: url('../images/background.png');
+  color: white;
 }
 
-/* selector de id */
-#encabezado {
-  border: 3px solid black;
+.menu {
+  font-size: 24px;
 }
-
-#portada {
-  border: 3px solid orange;
-}
-
-#guitarras {
-  border: 3px solid brown;
-}
-
-/*
-body {
-  background: peru;
-}*/
